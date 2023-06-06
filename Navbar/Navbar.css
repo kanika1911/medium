@@ -1,0 +1,78 @@
+.navbar {
+  transition: 0.3s ease-out;
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: yellow;
+  background: #ffc017;
+  height: 75px;
+  gap: 2em;
+  border-bottom: 1.3px solid black;
+  padding: 0 3.625em;
+}
+
+.navbar .logo {
+  cursor: pointer;
+  flex: 1 auto;
+}
+.name
+{
+  font-size: larger;
+  
+}
+.navbar .logo img {
+  width: 15em;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar .right {
+  display: flex;
+  gap: 1.2em;
+  font-size: 17px;
+  align-items: center;
+}
+
+.navbar .right .GetStarted {
+  padding: 4px 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .right .GetStarted img {
+  width: 2em;
+  height: 2em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar .right .GetStarted span {
+  text-transform: capitalize;
+}
+
+.navbar .right span {
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .right .ss:hover {
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background-color: #5555;
+  border-radius: 10em;
+}
+
+.navbar .right .GetStarted:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background-color: #5555;
+  border-radius: 10em;
+}
+
+.navbar.active {
+  background: white;
+  transition: 0.3s ease-in;
+}

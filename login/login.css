@@ -1,0 +1,82 @@
+.login {
+  min-height: 100vh;
+  background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .card {
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  background-color: white;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.login .card .right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.login .card .right h1 {
+  color: #555;
+  margin: 0px;
+}
+
+.login .card .right form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.login .card .right form input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 10px;
+  height: 25px;
+}
+
+.login .card .right form button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #938eef;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.login .card .left {
+  flex: 1;
+  background: 
+    url("https://t3.ftcdn.net/jpg/05/57/04/88/360_F_557048825_lJT3fmexnXNycizw2bD5sDf86eJnc0le.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  justify-content: center;
+}
+
+.login .card .left h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.login .card .left button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  color: rebeccapurple;
+  font-weight: bolder;
+  cursor: pointer;
+}

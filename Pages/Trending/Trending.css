@@ -1,0 +1,30 @@
+.trending {
+  margin-right: 5%;
+  margin-left: 5%;
+  border-bottom: 1px solid lightgray;
+  height: 375px;
+  padding: 0 3.625em;
+}
+
+.trending .container {
+  padding-top: 1em;
+}
+
+.trending .container .title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.trending .container .title span {
+  font-weight: bold;
+}
+
+.trending .pp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0.1em;
+}
